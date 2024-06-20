@@ -1,0 +1,106 @@
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A438E0;
+    padding: 15px;
+}
+.navegacao ul {
+    margin: 10px;
+    padding-right: 10px;
+    padding: 10px;
+   
+}
+.navegacao ul li {
+    display: inline;
+    
+}
+.navegacao .list-item li a {
+    margin: 5px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+button {
+    background-color: #c0c0c0; /* Cor de fundo cinza claro */
+    padding: 8px 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animação suave da cor de fundo */
+    border-radius: 10px;
+    background-color: #c0c0c0;
+  }
+  
+  button:hover {
+    background-color: #DC38E0; /* Cor de fundo amarela no hover */
+  }
+/* Código da secão principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  main h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgb(35,0,36);
+    background: linear-gradient(90deg, rgba(35,0,36,1) 0%, rgba(197,9,200,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+.secao-conteudo .conteudo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.secao-conteudo .img {
+    margin-right: 20px;
+}
+.secao-conteudo .texto {
+    display: flex;
+    flex-direction: column;
+}
+span {
+    color: #c509c8;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  .secao-segunda {
+    margin-left: 20px;
+  }
+.secao-terceira {
+  margin-left: 20px;
+}
+/* Rotapé*/
+footer {
+  padding: 50px;
+  margin-top: 30px;
+  background-color: #A438E0;
+}
+.rotape-titulo {
+  display: flex;
+  justify-content: center;
+  
+}
+.paragrafo-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
